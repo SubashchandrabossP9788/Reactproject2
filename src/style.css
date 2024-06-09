@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .fa-magnifying-glass {
+    padding: 10px;
+  }
+  
+  .chat {
+    display: flex;
+    height: fit-content;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .text-box {
+    margin: 10px;
+  }
+  
+  .star-box {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  h3,
+  p {
+    margin: 0;
+  }
